@@ -1,0 +1,8 @@
+<M> = <100>
+<N> = <50>
+<P> = <100>
+<MaxBuffSize> = <5>
+<SplitSize> = <10>
+<NumConsumer> = <2>
+<MaxProducerSleepTime> = <20>
+<MaxConsumerSleepTime> = <80>
