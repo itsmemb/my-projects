@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Fill all fields, then click "Purchase" to buy.</h1>
+
+<form action="cashier_checkout.php" method="get">
+  <p style="font-size:200%;">
+  <label for="bookNum">Book isbn:</label>
+     <input type="text" id="bookNum" name="bookNum" value=""><br>
+  <label for="bookTitle">Book title:</label>
+     <input type="text" id="bookTitle" name="bookTitle" value=""><br>
+  <label for="numBought">Quantity to purchase:</label>
+     <input type="text" id="numBought" name="numBought" value=""><br>
+     <input type="reset" value="Clear">
+     <input type="submit" value="Purchase">
+  </p>
+</form>
+
+<h3>If you click the "Purchase" button, it will buy the amount of the book you specified. NO REFUNDS.</h3>
+
+<form action="cashier_view.html" method="get">
+  <p style="font-size:200%;">
+    <input type="submit" value="Cashier Home">
+  </p>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+p1 put in ready queue.
+p1 dispatched from the ready queue to use the CPU.
+p2 put in ready queue.
+p3 put in ready queue.
+p1 put in ready queue.
+p3 dispatched from the ready queue to use the CPU.
+p4 put in ready queue.
+p3 has terminated.
+p3 turnaround time: 2ms.
+p3 total CPU wait time: 0ms.
+p3 total I/O wait time: 0ms.
+p4 dispatched from the ready queue to use the CPU.
+p4 has terminated.
+p4 turnaround time: 2ms.
+p4 total CPU wait time: 1ms.
+p4 total I/O wait time: 0ms.
+p1 dispatched from the ready queue to use the CPU.
+p1 put into I/O queue.
+p2 dispatched from the ready queue to use the CPU.
+p1 completed I/O, returned to ready queue.
+p2 put in ready queue.
+p1 dispatched from the ready queue to use the CPU.
+p1 has terminated.
+p1 turnaround time: 26ms.
+p1 total CPU wait time: 3ms.
+p1 total I/O wait time: 0ms.
+p2 dispatched from the ready queue to use the CPU.
+p2 put into I/O queue.
+p2 completed I/O, returned to ready queue.
+p2 dispatched from the ready queue to use the CPU.
+p2 has terminated.
+p2 turnaround time: 57ms.
+p2 total CPU wait time: 23ms.
+p2 total I/O wait time: 0ms.
+Simulation finished.
+
+Simulation statistics
+------------------------------
+Simulation steps: 58
+CPU utilization: 90%
+Average wait time: 6.75 ms
+Average turnaround time: 21.75 ms
+Throughput: 0.06896551724137931 processes per ms
