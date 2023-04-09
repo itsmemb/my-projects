@@ -1,13 +1,13 @@
-# the Model view controller (MVC) oattern
+# the Model view controller (MVC) pattern
 
-Get /about HTTp/1.1
+Get /about HTTP/1.1
 Host: 127.0.0.1
 
 ## Routers
 Matchers fro the url that is requested
 
 GET for "/about"
-I see you requested "/BOUT", WE'LL GIVE THAT TOI TH ABOUT COontroller to handle
+I see you requested "/about", we'll give that to the about controller to handle
 
 ## Models
 Databsase wrapper 
